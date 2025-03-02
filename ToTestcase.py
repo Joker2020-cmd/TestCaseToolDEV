@@ -1,6 +1,6 @@
 #导入库
 import xmind
-
+import test
 #处理函数
 
 def Rand_xmind(path):
@@ -8,7 +8,7 @@ def Rand_xmind(path):
      workbook = xmind.load(path=path)
      sheet = workbook.getData()
      return sheet
-
+test.rand1()
 
 
 if __name__ == '__main__':
